@@ -7,36 +7,16 @@
     tools:context="charles.smstracker.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-<<<<<<< HEAD
-        android:text="Hello World!"
-=======
-        android:text="envia sms para 123, a cada 1 min"
->>>>>>> db9ceb4503df5356e54558493a0edffe8785b682
+        android:layout_width="261dp"
+        android:layout_height="65dp"
+
+        android:text="envia um sms com as coordenadas para um numero caso a mensagem recebida seja user/senha e o gps esteja ativo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-<<<<<<< HEAD
-=======
-    <Button
-        android:id="@+id/button"
-        android:onClick="startClicked"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Iniciar"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintVertical_bias="0.883" />
+        app:layout_constraintHorizontal_bias="0.524"
+        tools:layout_editor_absoluteX="75dp" />
 
->>>>>>> db9ceb4503df5356e54558493a0edffe8785b682
+
 </android.support.constraint.ConstraintLayout>

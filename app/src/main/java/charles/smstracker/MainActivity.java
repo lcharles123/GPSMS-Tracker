@@ -1,12 +1,12 @@
 package charles.smstracker;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
-import android.content.IntentFilter;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.os.SystemClock;
 import android.widget.Toast;
 
 
@@ -23,7 +23,8 @@ public class MainActivity extends Activity {
         handler3.post(new Runnable(){
             @Override
             public void run(){
-                Toast.makeText(MainActivity.this,"iniciou o servico e saiu da main",Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"Serviço iniciado",Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"Esperando SMS...",Toast.LENGTH_LONG).show();
             }
         });
 
