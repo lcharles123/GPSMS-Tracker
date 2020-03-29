@@ -1,12 +1,20 @@
 apply plugin: 'com.android.application'
 
 android {
+<<<<<<< HEAD
     compileSdkVersion 29
+=======
+    compileSdkVersion 22
+>>>>>>> db9ceb4503df5356e54558493a0edffe8785b682
     buildToolsVersion "29.0.3"
     defaultConfig {
         applicationId "charles.smstracker"
         minSdkVersion 9
+<<<<<<< HEAD
         targetSdkVersion 29
+=======
+        targetSdkVersion 22
+>>>>>>> db9ceb4503df5356e54558493a0edffe8785b682
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -26,5 +34,8 @@ dependencies {
     })
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
+<<<<<<< HEAD
     compile 'org.jetbrains:annotations-java5:15.0'
+=======
+>>>>>>> db9ceb4503df5356e54558493a0edffe8785b682
 }
