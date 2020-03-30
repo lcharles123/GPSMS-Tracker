@@ -93,9 +93,9 @@ public class MyReceiver extends BroadcastReceiver {
             values.put("address", "000111222333");
             values.put("body", "https://maps.google.com/?q=" + xy);
 
-            context.getContentResolver().insert(Uri.parse("content://sms/sent"), values); //only for DEBUG, copy sms to "sent"
-            //SmsManager smsManager = SmsManager.getDefault(); //send SMS in background
-            //smsManager.sendTextMessage("000111222333", null, "https://maps.google.com/?q=" + xy, null, null);
+            context.getContentResolver().insert(Uri.parse("content://sms/sent"), values); //only for DEBUG, copy sms to "sent" messages folder only
+            //SmsManager smsManager = SmsManager.getDefault(); //get manager to send SMS in background
+            //smsManager.sendTextMessage("000111222333", null, "https://maps.google.com/?q=" + xy, null, null); //edit here to add destination and coordinates
 
         } else {
             Toast.makeText(context, "esperando o prox SMS..." , Toast.LENGTH_LONG).show();
